@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function page() {
   return (
-    <div>gallery</div>
-  )
+    <div className="text-3xl flex justify-center items-center w-full h-screen">
+      gallery
+    </div>
+  );
 }
 
-export default page
+export default page;
