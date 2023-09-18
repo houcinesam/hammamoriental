@@ -3,13 +3,12 @@ import ContactForm from "../../components/ContactForm";
 
 const page = () => {
   return (
-    <div className="flex flex-row items-center justify-around">
+    <div className="flex flex-col   md:flex-row">
       <ContactForm />
-      <div className="flex flex-col">
-        <p>vous pouvez egalement nous contacter:</p>
-        <p> par telephone 06.06.06.06.06</p>
-        par courrier : 28 rue du bout de la rue
-      </div>
+      {/* <div className="flex flex-col   text-3xl m-5">
+        <p> tel: 06.06.06.06.06</p>
+        <p>adresse : 28 rue du bout de la rue</p>
+      </div> */}
     </div>
   );
 };

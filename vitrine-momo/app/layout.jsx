@@ -3,6 +3,7 @@ export const metadata = {
   description: 'test for sitemomo',
 }
 import Layout from "@/components/Layout"
+
  
 export default function RootLayout({ children }) {
  return (

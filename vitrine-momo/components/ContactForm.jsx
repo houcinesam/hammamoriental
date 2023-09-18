@@ -8,12 +8,12 @@ function ContactForm() {
   }
 
   return (
-    <div className="bg-gray-200 min-h-screen flex items-center justify-center">
-      <div className="bg-white p-8 rounded-lg shadow-md">
+    <div className="flex flex-col mt-8  mb-4 md:w-2/3 lg:w-1/2  md:mx-auto ">
+      <div className="bg-white p-8 rounded-lg shadow-md ">
         <h1 className="text-2xl font-semibold mb-4">Contactez-nous</h1>
         <form onSubmit={handleSubmit}>
-          <div className="mb-4">
-            <label htmlFor="firstName" className="block text-gray-700 font-bold mb-2">
+          <div className="mb-4 ">
+            <label htmlFor="firstName" className="block text-gray-700 font-bold mb-2 ">
               Prénom
             </label>
             <input
