@@ -1,8 +1,12 @@
 import { useForm, ValidationError } from '@formspree/react';
+;
+
 
 function ContactForm() {
-  const [state, handleSubmit] = useForm("xknlbpbv");
-
+  
+  const key = process.env.NEXT_PUBLIC_FORMSPREE;
+  const [state, handleSubmit] = useForm(key);
+console.log(key);
   if (state.succeeded) {
     return <p>Merci de votre message, nous vous recontacterons au plus vite.</p>;
   }

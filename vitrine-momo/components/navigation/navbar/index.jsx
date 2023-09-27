@@ -3,6 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
+    <header>  
     <div className="bg-gray-300 text-2xl md:3xl flex flex-row vw-full justify-between mb-10">
       <div className="display flex items-center justify-between ">
         <img
@@ -31,6 +32,7 @@ const Navbar = () => {
         </h2>
       </div>
     </div>
+    </header>
   );
 };
 export default Navbar;
