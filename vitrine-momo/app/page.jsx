@@ -1,15 +1,23 @@
 import "./globals.css";
-
+import Image from "next/image";
 function Home() {
   return (
     <main className="flex min-h-screen flex-col   bg-grey-200">
       <div className="h-4 bg-[#f79b20]"></div>
       <div className="flex flex-col mt-5">
+     
         {" "}
         <div className="z-10 max-w-5xl w-full   font-mono text-sm lg:flex">
         <h1 className=" flex flex-row text-left ml-8 text-3xl">Multiservice <p className="text-[#f79b20]">Pro</p></h1>
           <h2 className="text-2xl flex  w-full ml-8 text-center ">Auto-entrepreneur dans divers travaux et habitat</h2>
           <p className="h-1 w-full bg-neon mb-10"></p>
+          <Image
+                className="h-auto md:w-64 pl-10"
+              src="/imageRenovation.jpg"
+              alt="logo de Multiservice pro"
+              width={300}
+              height={300}
+            />
           <div className="flex flex-col  bg-[#484848] justify-center text-neon text-2xl m-5  shadow-lg shadow-neon rounded-2xl ">
             <p className="ml-5 mt-5 mr-5   hover:rounded hover:shadow-md hover:shadow-white">Rafraichissement des murs</p>
             <p className="ml-5 mt-5 mr-5   hover:rounded hover:shadow-md hover:shadow-white">Bricolage</p>
