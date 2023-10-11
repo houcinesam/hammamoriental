@@ -8,7 +8,7 @@ function Home() {
       <div className=" mt-5">
         {" "}
         <div className="   w-full   font-mono text-sm ">
-          <h1 className=" flex flex-row text-left text-[#484848] mt-5 ml-2 mb-4 text-5xl   lg:text-7xl lg:ml-20 lg:mb-10">
+          <h1 className=" flex flex-row text-left text-[#484848] mt-5 ml-2 mb-4 text-4xl   lg:text-7xl lg:ml-20 lg:mb-10">
             Multiservice <p className="text-[#f79b20]">Pro</p>
           </h1>
           <div className="bg-[#484848]">

@@ -16,7 +16,7 @@ function Footer() {
             Facebook
           </a>{" "}
         </div>
-        <p className="">&copy; créé par: David Abruzzo Tous droits réservés.</p>
+        <p className="">&copy; site créé par: David Abruzzo Tous droits réservés.</p>
         <p> &#9993; davidabruzzogames@gmail.com</p>
       </div>
     </div>
