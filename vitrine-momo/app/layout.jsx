@@ -1,14 +1,30 @@
 export const metadata = {
-  title: 'sitemomo',
-  description: 'test for sitemomo',
-}
-import Layout from "@/components/Layout"
-
- 
+  title: "Multiservices Pro",
+  description: "Création & Rénovation",
+  og: {
+    title: "Multiservice Pro",
+    description: "Renovation & Rénovation",
+  },
+};
+import Layout from "@/components/Layout";
 export default function RootLayout({ children }) {
- return (
+  return (
     <html lang="fr">
-      <body className="bg-gray-200"><Layout >{children} </Layout></body>
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <link
+          rel="icon"
+          href="/icon?<generated>"
+          type="image/<generated>"
+          sizes="<generated>"
+        />
+      </head>
+      <body className="bg-gray-200">
+        <Layout>{children} </Layout>
+      </body>
     </html>
-  )
+  );
 }

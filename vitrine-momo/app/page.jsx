@@ -1,6 +1,15 @@
 import "./globals.css";
 import Link from "next/link";
 import Image from "next/image";
+
+// export const Metadata = {
+//   title: "Multiservice Pro",
+//   description: "Renovation & Rénovation",
+//   og: {
+//     title: "Multiservice Pro",
+//     description: "Renovation & Rénovation",
+//   },
+// };
 function Home() {
   return (
     <main className="flex flex-col min-h-screen min-w-full  bg-gray-200">
@@ -34,9 +43,17 @@ function Home() {
             <p className="ml-5 mt-5 mr-5   ">Montage des meubles</p>
           </div>
           <div className=" pt-4 pb-4 bg-[#484848] text-neon text-center text-3xl flex items-center">
-  <p className="h-16">  DEVIS GRATUIT : <Link className="hover:border-b-2  hover:border-neon" href="/contact">Contactez nous</Link></p>
-</div>
-
+            <p className="h-16">
+              {" "}
+              DEVIS GRATUIT :{" "}
+              <Link
+                className="hover:border-b-2  hover:border-neon"
+                href="/contact"
+              >
+                Contactez nous
+              </Link>
+            </p>
+          </div>
         </div>
       </div>
     </main>
