@@ -15,14 +15,6 @@ console.log(key);
     <div className="flex flex-col mt-8  mb-4 md:w-2/3 lg:w-1/2  md:mx-auto ">
       <div className="bg-white p-8 rounded-lg shadow-md ">
         <h1 className="text-2xl font-semibold mb-4">Contactez-nous</h1>
-        <div className="ml-8">
-        <p className="mb-2 text-xl">
-          &#9990; : 07 52 06 31 20 
-        </p>
-        <p className="mb-2 text-xl">
-          Ou en complétant le formulaire ci-dessous :
-        </p>
-       </div>
         <form onSubmit={handleSubmit}>
           <div className="mb-4 ">
             <label htmlFor="firstName" className="block text-gray-700 font-bold mb-2 ">
