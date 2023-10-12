@@ -2,14 +2,7 @@ import "./globals.css";
 import Link from "next/link";
 import Image from "next/image";
 
-// export const Metadata = {
-//   title: "Multiservice Pro",
-//   description: "Renovation & Rénovation",
-//   og: {
-//     title: "Multiservice Pro",
-//     description: "Renovation & Rénovation",
-//   },
-// };
+
 function Home() {
   return (
     <main className="flex flex-col min-h-screen min-w-full  bg-gray-200">
