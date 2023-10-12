@@ -1,7 +1,6 @@
 
-        userAgent: *
-        allow: /
-        
-    
-      sitemap: https://site-momo-test.vercel.app/sitemap.xml
+User-Agent: *
+Allow: /
+
+Sitemap: https://site-momo-test.vercel.app/sitemap.xml
   
