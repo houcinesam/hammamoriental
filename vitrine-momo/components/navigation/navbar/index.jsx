@@ -30,7 +30,7 @@ const Navbar = () => {
                 <Link href="/dashboard">Realisations</Link>
               </li>
               <li className="flex-grow block px-4 py-2 rounded-md border bg-[#484848] hover:bg-[#f79b20] md:max-h-12">
-                <Link href="/gallery">Photos</Link>
+                <Link href="/gallery">A propos</Link>
               </li>
             </ul>
           </div>
