@@ -3,5 +3,5 @@
         allow: '/'
         
     
-      sitemap: 'https://site-momo-test.vercel.app/sitemap.xml'
+      sitemap: https://site-momo-test.vercel.app/sitemap.xml
   
