@@ -6,15 +6,24 @@ function Home() {
   return (
     <main className="flex flex-col min-h-screen min-w-full  bg-gray-200">
       <div className="h-4 bg-[#f79b20]"></div>
-      <div className=" mt-5">
+      <div className=" mt-5 ">
         {" "}
         <div className="   w-full   font-mono text-sm ">
-          <h1 className=" flex flex-row text-left text-[#484848] mt-5 ml-2 mb-4 text-4xl   lg:text-7xl lg:ml-20 lg:mb-10">
-            Multiservice <p className="text-[#f79b20]">Pro</p>
-          </h1>
+          <div className=" flex flex-col md:flex-row md:justify-around">
+            <h1 className=" flex flex-row text-left text-[#484848] mt-5 ml-2 mb-4 text-4xl  md:text-5xl  lg:text-7xl lg:ml-20 lg:mb-10">
+              Multiservice <p className="text-[#f79b20]">Pro</p>
+            </h1>
+            <div
+              className=" text-xl   ml-10 md:ml-20 md:text-3xl
+              text-[#484848] lg:text-3xl lg:items-center   mb-4 md:mt-5"
+            >
+              <p className="mb-2">pour tout vos travaux </p>{" "}
+              <p>&#9990; : 07 52 06 31 20</p>{" "}
+            </div>
+          </div>
           <div className="bg-[#484848]">
-            <h2 className="text-3xl flex  w-full ml-2 text-center text-neon lg:text-5xl lg:ml-20 ">
-              Rénovation & création
+            <h2 className=" text-3xl  w-full ml-2 md:text-center text-neon lg:text-5xl lg:ml-20 ">
+              <strong className="text-normal">Rénovation & création</strong>
             </h2>
           </div>
           <p className="h-1 w-full bg-neon mb-10 "></p>
@@ -34,7 +43,7 @@ function Home() {
             <p className="ml-5 mt-5 mr-5   ">Reparations divers</p>
             <p className="ml-5 mt-5 mr-5   ">Montage des meubles</p>
           </div>
-          <div className=" pt-4 pb-4 bg-[#484848] text-neon text-center text-3xl flex items-center">
+          <div className=" flex flex-col justify-center items-center pt-4 pb-4 bg-[#484848] text-neon text-center text-3xl flex items-center md:text-5xl text-center">
             <p className="h-16">
               {" "}
               DEVIS GRATUIT :{" "}

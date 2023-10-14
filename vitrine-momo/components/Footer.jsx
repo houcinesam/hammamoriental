@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <div
-      className=" min-w-full bg-[#484848] text-gray-200 py-8 text-left"
+      className=" sticky bottom-0  z-[-50] h- md:flex md:flex-col min-w-full bg-[#484848] text-gray-200 py-8 text-left"
     >
       <div className="ml-8 ">
         <p className="mb-2 text-xl">
