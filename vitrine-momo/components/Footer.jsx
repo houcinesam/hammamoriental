@@ -1,9 +1,9 @@
 function Footer() {
   return (
     <div
-      className="container min-w-full bg-[#484848] text-gray-200 py-8 text-left"
+      className=" min-w-full bg-[#484848] text-gray-200 py-8 text-left"
     >
-      <div className="ml-8">
+      <div className="ml-8 ">
         <p className="mb-2 text-xl">
           &#9990; : 07 52 06 31 20 | &#9993; : multiservicespro57gmail.com
         </p>

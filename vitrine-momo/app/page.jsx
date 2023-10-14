@@ -5,6 +5,7 @@ import Image from "next/image";
 function Home() {
   return (
     <main className="flex flex-col min-h-screen min-w-full  bg-gray-200">
+      <div className="h-4 bg-[#f79b20]"></div>
       <div className=" mt-5">
         {" "}
         <div className="   w-full   font-mono text-sm ">
