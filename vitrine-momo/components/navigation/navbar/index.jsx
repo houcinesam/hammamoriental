@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <div className="bg-gray-200 sticky top-0 z-50">
+      <div className="bg-gray-200 sticky top-0 z-50 ">
         <div className="text-2xl md:text-3xl flex flex-row vw-full justify-between bg-gray-200">
           <div className="flex flex-col justify-around md:w-1/3">
             <div className="display flex flex-col justify-between justify-around">
@@ -29,11 +29,11 @@ const Navbar = () => {
               />
             </div>
           </div>
-          <div className="flex-row vw-[100%] flex justify-between items-center md:w-2/3 md:mt-[1%]">
+          <div className="flex-row vw-[100%] flex justify-around items-end md:w-2/3 md:mt-[1%]">
             {/* Menu Button */}
             <button
               onClick={toggleMenu}
-              className="md:hidden px-4 py-2 bg-gray-200 text-gray-700 hover:text-gray-900 text-5xl border rounded-lg"
+              className="lg:hidden  px-4 py-2 bg-gray-200 text-gray-700 hover:text-gray-900 text-5xl border rounded-lg"
               type="button"
             >
               {menuOpen ? "X" : "≡"}
@@ -44,7 +44,7 @@ const Navbar = () => {
               <div
                 className={`${
                   menuOpen ? "block" : "hidden"
-                }  md:hidden  fixed top-20 right-20 flex flex-col  w-2/3 h-full bg-transparent  z-50 `}
+                }  lg:hidden  fixed top-20 right-20 flex flex-col  w-2/3 h-full bg-transparent  z-50 `}
               >
                 <Link href="/">
                   <div
@@ -80,7 +80,7 @@ const Navbar = () => {
                 </Link>
               </div>
               {/* menu desktop */}
-              <div onClick={closeMenu} className="hidden md:flex md:flex-row md:w-full   space-x-8  text-2xl text-gray-200 h-full md:text-3xl md:text-center md:mr-10 md:mt-6 md:pt-5 ">
+              <div onClick={closeMenu} className="hidden lg:flex lg:flex-row md:w-full   space-x-8  text-2xl text-gray-200 h-full md:text-3xl md:text-center md:mr-10 md:mt-6 md:pt-5 ">
                 <div className="flex-grow block px-4 py-2 rounded-xl border ml-8 bg-[#484848] hover:bg-[#f79b20] hover:text-gray-700 md:max-h-12 text-neon">
                   <Link href="/">Accueil</Link>
                 </div>
