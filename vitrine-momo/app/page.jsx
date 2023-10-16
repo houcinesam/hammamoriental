@@ -4,21 +4,21 @@ import Image from "next/image";
 
 function Home() {
   return (
-    <main className="flex flex-col min-h-screen min-w-full  bg-gray-200">
+    <main className="flex flex-col justify-center min-h-screen min-w-full  bg-gray-200">
       <div className="h-4 bg-[#f79b20]"></div>
       <div className=" mt-5 ">
         {" "}
         <div className="   w-full   font-mono text-sm ">
           <div className=" flex flex-col md:flex-row md:justify-around">
-            <h1 className=" flex flex-row text-left text-[#484848] mt-5 ml-2 mb-4 text-4xl  md:text-5xl  lg:text-7xl lg:ml-20 lg:mb-10">
+            <h1 className=" flex flex-row text-left text-[#484848] mt-5 ml-10 mb-4 text-4xl  md:text-5xl  lg:text-7xl lg:ml-20 lg:mb-10">
               Multiservice <p className="text-[#f79b20]">Pro</p>
             </h1>
             <div
-              className=" text-xl   ml-10 md:ml-20 md:text-3xl
+              className=" text-2xl   ml-10 md:ml-20 md:text-3xl
               text-[#484848] lg:text-3xl lg:items-center   mb-4 md:mt-5"
             >
-              <p className="mb-2">pour tout vos travaux </p>{" "}
-              <p>&#9990; : 07 52 06 31 20</p>{" "}
+              <p className="mb-2 ">pour tout vos travaux </p>{" "}
+              <p className="text-2xl">&#9990; : 07 52 06 31 20</p>{" "}
             </div>
           </div>
           <div className="bg-[#484848]">
