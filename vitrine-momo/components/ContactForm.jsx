@@ -84,6 +84,7 @@ function ContactForm() {
             <ValidationError prefix="Message" field="message" errors={state.errors} />
           </div>
           <div className="h-1 bg-[#f79b20]"></div>
+          <div class="g-recaptcha" data-sitekey="6LdvCLIoAAAAAECBx30E6wm4pDPTryBGJlPLkcoa"></div>
           <button
             type="submit"
             className="bg-blue-500 text-white mt-2 py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
