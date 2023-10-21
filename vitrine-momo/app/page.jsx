@@ -38,7 +38,7 @@ function Home() {
             />{" "}
             <p className="m-5 w-5/6 text-left text-2xl  w-9/10 ml-5  text-[#484848] lg:text-3xl lg:ml-20 ">
               {" "}
-              {`Que vous souhaitiez rénover une pièce existante, créer un nouvel espace ou redonner vie à vos murs, notre équipe d&apos;experts est là pour vous accompagner. Nous transformons vos idées en réalité.`}
+              {`Que vous souhaitiez rénover une pièce existante, créer un nouvel espace ou redonner vie à vos murs, notre équipe d'experts est là pour vous accompagner. Nous transformons vos idées en réalité.`}
             </p>
           </div>
           <p className="flex  h-1 w-[90%] bg-neon mb-10 mt-5 mr-5 ml-5 shadow-neon "></p>
