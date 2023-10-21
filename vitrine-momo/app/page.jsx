@@ -38,9 +38,9 @@ function Home() {
             />{" "}
             <p className="m-5 w-5/6 text-left text-2xl  w-9/10 ml-5  text-[#484848] lg:text-3xl lg:ml-20 ">
               {" "}
-              Que vous souhaitiez rénover une pièce existante, créer un nouvel
+              {`Que vous souhaitiez rénover une pièce existante, créer un nouvel
               espace ou redonner vie à vos murs, notre équipe d'experts est là
-              pour vous accompagner. Nous transformons vos idées en réalité.
+              pour vous accompagner. Nous transformons vos idées en réalité.`}
             </p>
           </div>
           <p className="flex  h-1 w-[90%] bg-neon mb-10 mt-5 mr-5 ml-5 shadow-neon "></p>
@@ -48,7 +48,7 @@ function Home() {
             <div className="flex flex-col md:flex-row justify-between  align-top text-[#484848] text-2xl m-5 lg:ml-20 lg:text-3xl    ">
               {" "}
               <p className="ml-5  mr-5 w-5/6  align-text-top ">Rafraichissement des murs</p>
-              <p className="ml-5 md:ml-20">Laissez nos artistes du mur donner un nouveau souffle à votre intérieur. Peinture, papier peint, textures - nous faisons des murs une toile pour votre créativité.</p>
+              <p className="ml-5 md:ml-20">Laissez nos artistes du mur donner un nouveau souffle à votre intérieur. Peinture, papier peint, textures , nous faisons des murs une toile pour votre créativité.</p>
             </div>
             <div className="flex flex-col md:flex-row  justify-between  text-[#484848] text-2xl m-5 lg:ml-20 lg:text-3xl    ">
               {" "}
@@ -58,7 +58,7 @@ function Home() {
             <div className="flex flex-col md:flex-row   text-[#484848] text-2xl m-5 lg:ml-20 lg:text-3xl    ">
               {" "}
               <p className="ml-5  mr-5   w-5/6  ">Reparations diverses</p>
-              <p className="ml-5 md:ml-[100px]"> Les problèmes dans la maison ne sont pas un problème pour nous. Que ce soit la plomberie, l'électricité, la menuiserie ou autre, nous sommes là pour réparer et améliorer.</p>
+              <p className="ml-5 md:ml-[100px]"> {`Les problèmes dans la maison ne sont pas un problème pour nous. Que ce soit la plomberie, l'électricité, la menuiserie ou autre, nous sommes là pour réparer et améliorer.`}</p>
             </div>
             <div className="flex flex-col md:flex-row   text-[#484848] text-2xl m-5 lg:ml-20 lg:text-3xl    ">
               {" "}
