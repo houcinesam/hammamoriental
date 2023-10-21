@@ -2,6 +2,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import ReCAPTCHA from "react-google-recaptcha";
 function ContactForm() {
   const key = process.env.NEXT_PUBLIC_FORMSPREE;
+  const captchaKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
   const [state, handleSubmit] = useForm(key);
 
   if (state.succeeded) {
@@ -116,7 +117,7 @@ function ContactForm() {
             />
           </div>
           <div className="h-1 bg-[#f79b20]"></div>
-          <ReCAPTCHA sitekey="6LdvCLIoAAAAAECBx30E6wm4pDPTryBGJlPLkcoa" />
+          <ReCAPTCHA sitekey={captchaKey} />
           <button
             type="submit"
             className="bg-blue-500 text-white mt-2 py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
