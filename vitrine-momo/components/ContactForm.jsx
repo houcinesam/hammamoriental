@@ -1,6 +1,4 @@
 import { useForm, ValidationError } from "@formspree/react";
-import ReCAPTCHA from "react-recaptcha";
-
 function ContactForm() {
   const key = process.env.NEXT_PUBLIC_FORMSPREE;
   const [state, handleSubmit] = useForm(key);
@@ -125,10 +123,6 @@ function ContactForm() {
             class="g-recaptcha"
             data-sitekey="6LdvCLIoAAAAAECBx30E6wm4pDPTryBGJlPLkcoa"
           ></div> */}
-         <ReCAPTCHA sitekey="6LdvCLIoAAAAAECBx30E6wm4pDPTryBGJlPLkcoa" />
-
-
-
           <button
             type="submit"
             className="bg-blue-500 text-white mt-2 py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
