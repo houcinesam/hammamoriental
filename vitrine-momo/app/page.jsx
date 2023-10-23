@@ -59,9 +59,9 @@ function Home() {
               <p className="ml-5  mr-5  w-5/6   ">Bricolage</p>
               <p className="ml-5 md:ml-20">
                 {" "}
-                Nous sommes là pour les projets de bricolage que vous avez en
+                {`Nous sommes là pour les projets de bricolage que vous avez en
                 tête. Des petites réparations aux projets plus complexes, nous
-                sommes prêts à relever le défi.
+                sommes prêts à relever le défi.`}
               </p>
             </div>
             <div className="flex flex-col md:flex-row   text-[#484848] text-2xl m-5 lg:ml-20 lg:text-3xl    ">
@@ -78,9 +78,9 @@ function Home() {
               <p className="ml-5  mr-5   w-5/6  ">Montage des meubles</p>
               <p className="ml-5 md:ml-[100px]">
                 {" "}
-                Vous avez acheté des meubles en kit ? Laissez-nous les assembler
+              { `Vous avez acheté des meubles en kit ? Laissez-nous les assembler
                 de manière professionnelle, pour que vous puissiez profiter de
-                votre nouvel ameublement sans tracas.
+                votre nouvel ameublement sans tracas.`}
               </p>
             </div>
           </div>
