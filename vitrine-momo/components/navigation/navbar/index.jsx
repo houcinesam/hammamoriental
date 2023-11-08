@@ -23,7 +23,7 @@ const Navbar = () => {
               <Image
                 className="h-auto md:w-64 pl-10"
                 src="/carteVisiteMomoLogo-removebg-preview.png"
-                alt="logo de Multiservice pro"
+                alt=" Multiservices pro"
                 width={200}
                 height={200}
               />

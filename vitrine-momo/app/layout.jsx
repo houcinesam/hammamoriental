@@ -2,7 +2,7 @@ export const metadata = {
   title: "Multiservices Pro",
   description: "Création & Rénovation",
   og: {
-    title: "Multiservice Pro",
+    title: "Multiservices Pro",
     description: "Renovation & Rénovation",
   },
 };
