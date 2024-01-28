@@ -62,14 +62,14 @@ const Navbar = () => {
                     Contact
                   </div>
                 </Link>
-                <Link href="/dashboard">
+                {/* <Link href="/dashboard">
                   <div
                     onClick={toggleMenu}
                     className="flex  px-4 py-2 rounded-md border bg-[#484848] hover:bg-[#f79b20] hover:text-gray-700 md:max-h-12 text-neon pl-12"
                   >
                     Realisations
                   </div>
-                </Link>
+                </Link> */}
                 <Link href="/gallery">
                   <div
                     onClick={toggleMenu}
@@ -87,9 +87,9 @@ const Navbar = () => {
                 <div onClick={closeMenu} className="flex-grow block px-4 py-2 rounded-xl border bg-[#484848] hover:bg-[#f79b20] hover:text-gray-700 md:max-h-12 text-neon">
                   <Link href="/contact">Contact</Link>
                 </div>
-                <div onClick={closeMenu} className="flex-grow block px-4 py-2 rounded-xl border bg-[#484848] hover:bg-[#f79b20] hover:text-gray-700 md:max-h-12 text-neon">
+                {/* <div onClick={closeMenu} className="flex-grow block px-4 py-2 rounded-xl border bg-[#484848] hover:bg-[#f79b20] hover:text-gray-700 md:max-h-12 text-neon">
                   <Link href="/dashboard">Realisations</Link>
-                </div>
+                </div> */}
                 <div onClick={closeMenu} className="flex-grow block px-4 py-2 rounded-xl border bg-[#484848] hover:bg-[#f79b20] hover:text-gray-700 md:max-h-12 text-neon">
                   <Link href="/gallery">A propos</Link>
                 </div>

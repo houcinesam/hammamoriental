@@ -14,9 +14,9 @@ function ContactForm() {
   return (
     <div className="flex flex-col mt-1  mb-4 md:w-2/3 lg:w-1/2  md:mx-auto bg-gray-200 ">
       <div className="h-4 bg-[#f79b20]"></div>
-      <div className=" p-8 rounded-lg shadow-md ">
+      <div className=" p-8 rounded-lg shadow-md text-gray-700">
         <h1 className="text-2xl font-semibold mb-4">Contactez-nous : </h1>
-        <p className="mb-2 text-xl">&#9990; : 07 52 06 31 20</p>
+        <p className="mb-2 text-xl text-gray-700">&#9990; : 07 52 06 31 20</p>
         <p className="text-xl">Ou avec le formulaire :</p>
         <div className="h-1 bg-[#f79b20]"></div>
         <form onSubmit={handleSubmit}>

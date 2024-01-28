@@ -36,12 +36,12 @@ function Home() {
               width={400}
               height={400}
             />{" "}
-            <p className="m-5 w-5/6 text-left text-2xl  w-9/10 ml-5  text-[#484848] lg:text-3xl lg:ml-20 ">
+            <p className="m-5 w-5/6 text-left text-xl  w-9/10 ml-5  text-[#484848] lg:text-2xl lg:ml-20 ">
               {" "}
               {`Que vous souhaitiez rénover une pièce existante, créer un nouvel espace ou redonner vie à vos murs, notre équipe d'experts est là pour vous accompagner. Nous transformons vos idées en réalité.`}
             </p>
           </div>
-          <p className="h-1 w-full bg-neon mb-10 "></p>
+          <p className="flex  h-1 w-[90%] bg-neon mb-10 mt-5 mr-5 ml-5 shadow-neon "></p>
           <div className="flex flex-col md:flex-row   text-[#484848] text-2xl m-5 lg:ml-20 lg:text-3xl    ">
             <Image
               className="h-auto md:w-64  lg:ml-20"
@@ -50,14 +50,14 @@ function Home() {
               width={400}
               height={400}
             />{" "}
-            <p className="m-5 w-5/6 text-left text-2xl  w-9/10 ml-5  text-[#484848] lg:text-3xl lg:ml-20 ">
+            <p className="m-5 w-5/6 text-left text-xl  w-9/10 ml-5  text-[#484848] lg:text-2xl lg:ml-20 ">
               {" "}
               {`mise en place de plancher chauffant`}
             </p>
           </div>
           <p className="flex  h-1 w-[90%] bg-neon mb-10 mt-5 mr-5 ml-5 shadow-neon "></p>
-          <div className="flex flex-col     text-[#484848] text-2xl m-5 lg:ml-20 lg:text-3xl    ">
-            <div className="flex flex-col md:flex-row justify-between  align-top text-[#484848] text-2xl m-5 lg:ml-20 lg:text-3xl    ">
+          <div className="flex flex-col     text-[#484848] text-xl m-5 lg:ml-20 lg:text-2xl    ">
+            <div className="flex flex-col md:flex-row justify-between  align-top text-[#484848] text-xl m-5 lg:ml-20 lg:text-2xl    ">
               {" "}
               <p className="ml-5  mr-5 w-5/6  align-text-top ">
                 Rafraichissement des murs
@@ -68,7 +68,8 @@ function Home() {
                 murs une toile pour votre créativité.
               </p>
             </div>
-            <div className="flex flex-col md:flex-row  justify-between  text-[#484848] text-2xl m-5 lg:ml-20 lg:text-3xl    ">
+            <p className="flex  h-1 w-[90%] bg-neon mb-10 mt-5 mr-5 ml-5 shadow-neon "></p>
+            <div className="flex flex-col md:flex-row  justify-between  text-[#484848] text-xl m-5 lg:ml-20 lg:text-2xl    ">
               {" "}
               <p className="ml-5  mr-5  w-5/6   ">Bricolage</p>
               <p className="ml-5 md:ml-20">
@@ -78,21 +79,22 @@ function Home() {
                 sommes prêts à relever le défi.`}
               </p>
             </div>
-            <div className="flex flex-col md:flex-row   text-[#484848] text-2xl m-5 lg:ml-20 lg:text-3xl    ">
+            <p className="flex  h-1 w-[90%] bg-neon mb-10 mt-5 mr-5 ml-5 shadow-neon "></p>
+            <div className="flex flex-col md:flex-row   text-[#484848] text-xl m-5 lg:ml-20 lg:text-2xl    ">
               {" "}
               <p className="ml-5  mr-5   w-5/6  ">Reparations diverses</p>
               <p className="ml-5 md:ml-[100px]">
                 {" "}
                 {`Les problèmes dans la maison ne sont pas un problème pour nous. Que ce soit la plomberie, l'électricité, la menuiserie ou autre, nous sommes là pour réparer et améliorer.`}
-
               </p>
             </div>
-            <div className="flex flex-col md:flex-row   text-[#484848] text-2xl m-5 lg:ml-20 lg:text-3xl    ">
+            <p className="flex  h-1 w-[90%] bg-neon mb-10 mt-5 mr-5 ml-5 shadow-neon "></p>
+            <div className="flex flex-col md:flex-row   text-[#484848] text-xl m-5 lg:ml-20 lg:text-2xl    ">
               {" "}
               <p className="ml-5  mr-5   w-5/6  ">Montage des meubles</p>
               <p className="ml-5 md:ml-[100px]">
                 {" "}
-              { `Vous avez acheté des meubles en kit ? Laissez-nous les assembler
+                {`Vous avez acheté des meubles en kit ? Laissez-nous les assembler
                 de manière professionnelle, pour que vous puissiez profiter de
                 votre nouvel ameublement sans tracas.`}
               </p>
