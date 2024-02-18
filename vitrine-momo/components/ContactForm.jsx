@@ -1,4 +1,7 @@
 import { useForm, ValidationError } from "@formspree/react";
+import "../app/globals.css";
+import Image from "next/image";
+import background from "@/public/backgroundImage.webp";
 // import ReCAPTCHA from "react-google-recaptcha";
 function ContactForm() {
   const key = process.env.NEXT_PUBLIC_FORMSPREE;
@@ -12,13 +15,13 @@ function ContactForm() {
   }
 
   return (
-    <div className="flex flex-col mt-1  mb-4 md:w-2/3 lg:w-1/2  md:mx-auto bg-gray-200 ">
-      <div className="h-4 bg-[#f79b20]"></div>
+    <div className="flex flex-col   mb-4 md:w-2/3 lg:w-1/2  md:mx-auto bg-cover bg-center "style={{ backgroundImage: `url(${background.src})` }}>
+      
       <div className=" p-8 rounded-lg shadow-md text-gray-700">
         <h1 className="text-2xl font-semibold mb-4">Contactez-nous : </h1>
         <p className="mb-2 text-xl text-gray-700">&#9990; : 06 03 74 39 23</p>
         <p className="text-xl">Ou avec le formulaire :</p>
-        <div className="h-1 bg-[#f79b20]"></div>
+        <div className="h-1 bg-buttonColor"></div>
         <form onSubmit={handleSubmit}>
           <div className="mb-4 ">
             <label
@@ -39,7 +42,7 @@ function ContactForm() {
               errors={state.errors}
             />
           </div>
-          <div className="h-1 bg-[#f79b20]"></div>
+          <div className="h-1 bg-buttonColor"></div>
           <div className="mb-4">
             <label
               htmlFor="lastName"
@@ -60,7 +63,7 @@ function ContactForm() {
               errors={state.errors}
             />
           </div>
-          <div className="h-1 bg-[#f79b20]"></div>
+          <div className="h-1 bg-buttonColor"></div>
           <div className="mb-4">
             <label
               htmlFor="email"
@@ -80,7 +83,7 @@ function ContactForm() {
               errors={state.errors}
             />
           </div>
-          <div className="h-1 bg-[#f79b20]"></div>
+          <div className="h-1 bg-buttonColor"></div>
           <div className="mb-4">
             <label
               htmlFor="phone"
@@ -96,7 +99,7 @@ function ContactForm() {
             />
           </div>
           <ValidationError prefix="phone" field="phone" errors={state.errors} />
-          <div className="h-1 bg-[#f79b20]"></div>
+          <div className="h-1 bg-buttonColor"></div>
           <div className="mb-4">
             <label
               htmlFor="message"
