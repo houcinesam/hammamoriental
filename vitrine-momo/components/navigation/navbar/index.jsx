@@ -56,14 +56,7 @@ const Navbar = () => {
                     Contact
                   </div>
                 </Link>
-                {/* <Link href="/dashboard">
-                  <div
-                    onClick={toggleMenu}
-                    className="flex  px-4 py-2 rounded-md border bg-buttonColor hover:bg-[#f79b20] hover:text-gray-700 md:max-h-12 text-neon pl-12"
-                  >
-                    Realisations
-                  </div>
-                </Link> */}
+                
                 <Link href="/gallery">
                   <div
                     onClick={toggleMenu}
@@ -72,6 +65,15 @@ const Navbar = () => {
                     Photos
                   </div>
                 </Link>
+                <Link href="/price">
+                  <div
+                    onClick={toggleMenu}
+                    className="flex  px-4 py-2 rounded-md border bg-buttonColor hover:bg-[#f79b20] hover:text-gray-700 md:max-h-12 text-neon pl-12"
+                  >
+                    Tarifs
+                  </div>
+                </Link>
+                
               </div>
               {/* menu desktop */}
               <div
@@ -95,6 +97,12 @@ const Navbar = () => {
                   className="flex-grow block px-4 py-2 rounded-xl border bg-buttonColor hover:bg-[#f79b20] hover:text-gray-700 md:max-h-12 text-neon"
                 >
                   <Link href="/gallery">Photos</Link>
+                </div>
+                <div
+                  onClick={closeMenu}
+                  className="flex-grow block px-4 py-2 rounded-xl border bg-buttonColor hover:bg-[#f79b20] hover:text-gray-700 md:max-h-12 text-neon"
+                >
+                  <Link href="/price">Tarifs</Link>
                 </div>
               </div>
             </nav>
