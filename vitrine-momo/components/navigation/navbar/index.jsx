@@ -94,7 +94,7 @@ const Navbar = () => {
                   onClick={closeMenu}
                   className="flex-grow block px-4 py-2 rounded-xl border bg-buttonColor hover:bg-[#f79b20] hover:text-gray-700 md:max-h-12 text-neon"
                 >
-                  <Link href="/gallery">A propos</Link>
+                  <Link href="/gallery">Photos</Link>
                 </div>
               </div>
             </nav>
