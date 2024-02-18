@@ -18,8 +18,8 @@ function ContactForm() {
     <div className="flex flex-col   mb-4 md:w-2/3 lg:w-1/2  md:mx-auto bg-cover bg-center bg-transparent ">
       
       <div className=" p-8 rounded-lg shadow-md text-gray-700">
-        <p className="text-2xl font-semibold mb-4">Contactez-nous :  &#9990; : 06 03 74 39 23 </p>
-        
+        <p className="text-2xl font-semibold mb-4">Contactez-nous :  </p>
+        <p className="text-xl font-semibold mb-4"> &#9990; : 06 03 74 39 23</p>
         <p className="text-xl font-semibold">Ou avec le formulaire :</p>
         <div className="h-1 bg-buttonColor"></div>
         <form onSubmit={handleSubmit}>
