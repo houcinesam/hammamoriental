@@ -27,7 +27,7 @@ const Navbar = () => {
             {/* Menu Button */}
             <button
               onClick={toggleMenu}
-              className="lg:hidden  px-4 py-2 bg-gray-200 text-gray-700 hover:text-gray-900 text-5xl border rounded-lg"
+              className="lg:hidden  px-4 py-2 bg-gray-200 text-gray-700 hover:text-gray-900 text-5xl border rounded-lg bg-transparent"
               type="button"
             >
               {menuOpen ? "X" : "≡"}
@@ -38,7 +38,7 @@ const Navbar = () => {
               <div
                 className={`${
                   menuOpen ? "block" : "hidden"
-                }  lg:hidden  fixed top-20 right-20 flex flex-col  w-2/3 h-full bg-transparent  z-50 `}
+                }  lg:hidden  fixed top-20 right-20 flex flex-col  w-2/3 h-full bg-transparent  z-50 bg-transparent `}
               >
                 <Link href="/">
                   <div
@@ -69,14 +69,14 @@ const Navbar = () => {
                     onClick={toggleMenu}
                     className="flex  px-4 py-2 rounded-md border bg-buttonColor hover:bg-[#f79b20] hover:text-gray-700 md:max-h-12 text-neon pl-12"
                   >
-                    A propos
+                    Photos
                   </div>
                 </Link>
               </div>
               {/* menu desktop */}
               <div
                 onClick={closeMenu}
-                className="hidden lg:flex lg:flex-row md:w-full   space-x-8  text-2xl text-gray-200 h-full md:text-3xl md:text-center md:mr-10 md:mt-6 md:pt-5 "
+                className="hidden lg:flex lg:flex-row md:w-full   space-x-8  text-2xl text-gray-200 h-full md:text-3xl md:text-center md:mr-10  md:pt-5 mb-[5%] "
               >
                 <div className="flex-grow block px-4 py-2 rounded-xl border ml-8 bg-buttonColor hover:bg-[#f79b20] hover:text-gray-700 md:max-h-12 text-neon">
                   <Link href="/">Accueil</Link>
