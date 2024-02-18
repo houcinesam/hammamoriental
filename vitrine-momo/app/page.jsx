@@ -15,28 +15,28 @@ function Home() {
             <div className=" text-[1.3rem] lg:text-3xl  ml-10 mr-10 md:ml-20 md:text-xl text-black lg:text-xl lg:items-center  mb-2 md:mt-5bg-backgroundColor opacity-90">
               <div className="mb-[25%] lg:mt-[15%] ">
                 <h1 className="lg:mb-[5%] text-5xl">
-                  Vôtre Hammam à freyming merlebach
+                  {`Vôtre Hammam à freyming merlebach`}
                 </h1>
                 <p className="lg:mb-[2%]">
-                  Véritable moment de détente et de plaisir grâce à la chaleur
-                  humide qu'il dégage.
+                 { `Véritable moment de détente et de plaisir grâce à la chaleur
+                  humide qu'il dégage. `}
                 </p>
                 <p className="lg:mb-[2%]">
-                  Permet d'éliminer efficacement les fatigues, tensions
-                  musculaires et d'évacuer le stress.
+                 { `Permet d'éliminer efficacement les fatigues, tensions
+                  musculaires et d'évacuer le stress.`}
                 </p>
                 <p className="lg:mb-[2%]">
-                  Venez profiter d'un moment de détente totale.
+                { ` Venez profiter d'un moment de détente totale.`}
                 </p>
                 <p className="lg:mb-[2%]">
-                  Un verre de thé à la menthe et une confiserie orientale
-                  offerts.
+                 { `Un verre de thé à la menthe et une confiserie orientale
+                  offerts.`}
                 </p>
                 <div className="flex flex-col lg:flex-row justify-between lg:mt-[10%]">
                   <div>
-                    <p className="mt-3 lg:mt-[10%] lg:text-5xl">rendez-vous</p>
+                    <p className="mt-3 lg:mt-[10%] lg:text-5xl">{`rendez-vous`}</p>
                     <p className="text-3xl lg:text-5xl ">
-                      &#9990; : 06 03 74 39 23
+                      &#9990; {`: 06 03 74 39 23`}
                     </p>
                   </div>
                   <Link href="/contact " className="flex justify-end">
@@ -44,7 +44,7 @@ function Home() {
                       className="  text-3xl ml-10 mr-10 mt-[25%]  md:ml-20 md:text-3xl text-gray-900 lg:text-3xl lg:items-center mb-4 md:mt-5 bg-buttonColor rounded-lg lg:mb-50 "
                       style={{ padding: "15px 30px" }}
                     >
-                      Nous contacter
+                      {`Nous contacter`}
                     </button>
                   </Link>
                 </div>

@@ -36,6 +36,7 @@ function Footer() {
           </Link>
           </div>
           </div>
+         <p> Images de <Link href="https://fr.freepik.com/vecteurs-libre/couverture-facebook-hammam-realiste_23178181.htm#query=hammam%20oriental%20banniere&position=10&from_view=search&track=ais&uuid=90a88bef-da63-4b54-a730-548e29c85c43">Freepik</Link></p>
         <p className="">
           &copy; site créé par: David Abruzzo Tous droits réservés.
         </p>
