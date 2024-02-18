@@ -1,14 +1,15 @@
 export const metadata = {
-  title: "Multiservices Pro",
-  description: "Création & Rénovation",
+  title: "Hammam Oriental",
+  description: "Hammam Oriental",
   og: {
-    title: "Multiservices Pro",
-    description: "Renovation & Rénovation",
+    title: "Hammam Oriental",
+    description: "Hammam Oriental",
   },
 };
-//la partie du dessus est à mettre dans un fichier metadat.js
+//la partie du dessus est à mettre dans un fichier metadata.js
 
 import Layout from "@/components/Layout";
+
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
@@ -27,7 +28,7 @@ export default function RootLayout({ children }) {
 )}
 
       </head>
-      <body className="bg-gray-200">
+      <body >
         <Layout>{children}</Layout>
       </body>
     </html>
