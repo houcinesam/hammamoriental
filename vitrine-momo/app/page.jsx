@@ -6,7 +6,7 @@ import background from "@/public/backgroundImage.webp";
 function Home() {
   return (
     <main
-      className="flex flex-col  min-h-screen min-w-full justify-around bg-cover bg-center "
+      className="flex flex-col  min-h-screen min-w-full justify-around bg-cover bg-center font-Rubik "
       style={{ backgroundImage: `url(${background.src})` }}
     >
       <div className=" mt-5 ">

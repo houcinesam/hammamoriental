@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <div className=" sticky bottom-0  z-[-50] h- md:flex md:flex-col min-w-full bg-backgroundColor text-gray-800 py-8 text-left">
+    <div className=" font-Rubik sticky bottom-0  z-[-50] h- md:flex md:flex-col min-w-full bg-backgroundColor text-gray-800 py-8 text-left">
       <div className="ml-8 ">
         <p className="mt-2 text-xl">Sur rendez-vous</p>
         <p className="mb-2 text-xl">
