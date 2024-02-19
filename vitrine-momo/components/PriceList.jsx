@@ -12,7 +12,7 @@ const PriceList = () => {
   ];
 
   return (
-    <div className=" text-3xl text-gray-700 ml-[5%] mt-10 ">
+    <div className=" text-3xl text-gray-700  mt-10 ">
       <h2 className="text-5xl mb-8 text-bold mt-10">Tarifs</h2>
       <table  className="table-auto divide-y divide-gray-200">
         <thead>

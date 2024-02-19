@@ -12,11 +12,9 @@ function Home() {
       <div className=" mt-5 ">
         <div className="w-full font-mono text-m ">
           <div className=" flex flex-col md:flex-row md:justify-around">
-            <div className=" text-[1.3rem] lg:text-3xl  ml-10 mr-10 md:ml-20 md:text-xl text-black lg:text-xl lg:items-center  mb-2 md:mt-5bg-backgroundColor opacity-90">
+            <div className=" text-logoBackground text-[1.3rem] lg:text-3xl  ml-10 mr-10 md:ml-20 md:text-xl text-black lg:text-xl lg:items-center  mb-2 md:mt-5bg-backgroundColor opacity-90">
               <div className="mb-[25%] md:mt-[10%] ">
-                <h1 className="lg:mb-[5%] text-5xl">
-                  {`Vôtre Hammam à freyming merlebach`}
-                </h1>
+                
                 <p className="md:mb-[2%] md:text-2xl">
                  { `Véritable moment de détente et de plaisir grâce à la chaleur
                   humide qu'il dégage. `}

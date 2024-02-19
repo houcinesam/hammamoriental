@@ -14,9 +14,12 @@ module.exports = {
       },
       colors: {
         neonColor: '#f79b20', 
-        backgroundColor:'#F6E6D9',
-        buttonColor:'#C28455',
+        backgroundColor:'#d4d3dc',
+        buttonColor:'#ad956b',
         shadowColor :"#C28455",
+        logoBackground: '#384454',
+        goldText: '#d4af66',
+        
 
 
       },
