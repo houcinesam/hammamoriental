@@ -2,8 +2,8 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <div className=" font-Rubik sticky bottom-0  z-[-50] h- md:flex md:flex-col min-w-full bg-backgroundColor text-gray-800 py-8 text-left">
-      <div className="ml-8 ">
+    <footer className=" font-Rubik sticky bottom-0  z-[-50] h- flex justify-center items-center flex-col min-w-full bg-backgroundColor text-gray-800 py-8 ">
+      <div className="ml-8 text-left ">
         <p className="mt-2 text-xl">Sur rendez-vous</p>
         <p className="mb-2 text-xl">
           &#9990; : 06 03 74 39 23  | &#9993; : houcinesam@hotmail.fr
@@ -42,7 +42,7 @@ function Footer() {
         </p>
         <p> &#9993; davidabruzzogames@gmail.com</p>
       </div>
-    </div>
+    </footer>
   );
 }
 
