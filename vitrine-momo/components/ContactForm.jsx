@@ -10,7 +10,7 @@ function ContactForm() {
 
   if (state.succeeded) {
     return (
-      <p>Merci de votre message, nous vous recontacterons au plus vite.</p>
+      <p className="text-2xl flex justify-center items-center text-backgroundColor">Merci de votre message, nous vous recontacterons au plus vite.</p>
     );
   }
 
@@ -128,7 +128,7 @@ function ContactForm() {
             />
           </div>
           <div className="h-1 bg-[#f79b20]"></div>
-          <ReCAPTCHA sitekey={captchaKey} />
+           <ReCAPTCHA sitekey={captchaKey} /> 
           <button
             type="submit"
             className="bg-blue-500 text-white mt-2 py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
