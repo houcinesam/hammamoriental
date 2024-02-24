@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Gallery = ({ images, imageSize }) => {
   return (
-    <div className="flex flex-col md:flex-row md:justify-around items-center">
+    <div className="flex flex-col md:flex-wrap md:justify-around items-center">
       {images.map((image, index) => (
         <div
           key={index}

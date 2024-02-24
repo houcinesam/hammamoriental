@@ -32,8 +32,8 @@ function Home() {
                 </p>
                 <div className="flex flex-col lg:flex-row justify-between md:mt-[5%]">
                   <div>
-                    <p className="mt-3 lg:mt-[10%] lg:text-5xl">{`rendez-vous`}</p>
-                    <p className="text-3xl lg:text-5xl ">
+                    <p className="mt-3 lg:mt-[10%] lg:text-5xl">{`rendez-vous:`}</p>
+                    <p className="text-3xl lg:text-4xl ">
                       &#9990; {`: 06 03 74 39 23`}
                     </p>
                   </div>
