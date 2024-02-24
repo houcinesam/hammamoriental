@@ -6,7 +6,7 @@ import IconeSnapchat from "@/public/iconeSnapchat.png";
 
 function Footer() {
   return (
-    <footer className=" font-Rubik sticky bottom-0  z-[-50] h- flex justify-center items-center flex-col min-w-full bg-backgroundColor text-gray-800 py-8 ">
+    <footer className=" font-Rubik    h- flex justify-center items-center flex-col min-w-full bg-backgroundColor text-gray-800 py-8 ">
       <div className="ml-8 text-left ">
         <p className="mt-2 text-xl">Sur rendez-vous</p>
         <p className="mb-2 text-xl">
@@ -17,46 +17,44 @@ function Footer() {
           <div className="flex flex-row">
             <button>
               <Link
-                href="https://www.facebook.com/profile.php?id=100087252550078"
+                href="https://www.snapchat.com/add/hammam.oriental?share_id=UpS478WE6uM&locale=fr-FR"
                 className="text-blue-400 hover:text-blue-600 mr-2"
               >
                 {" "}
                 <Image
-                  src={IconeFacebook}
-                  alt="icone facebook"
+                  src={IconeSnapchat.src}
+                  alt="icone snapchat"
                   width={50}
                   height={50}
                 />
               </Link>
             </button>
+            <button>
+              <Link
+                href="https://www.instagram.com/hammamoriental/"
+                className="text-blue-400 hover:text-blue-600 mr-2"
+              >
+                {" "}
+                <Image
+                  src={IconeInstagram.src}
+                  alt="icone instagram"
+                  width={50}
+                  height={50}
+                />
+              </Link>
+            </button>
+           
 
-            {/* <button
-              className=" text-xl ml-10 mr-3  md:ml-20 md:text-xl text-gray-900 lg:text-xl lg:items-center mb-4 md:mt-5 bg-buttonColor rounded-lg "
-              style={{ padding: "10px 20px" }}
-            >
-              facebook
-            </button> */}
-
-            <Link
-              href="https://www.facebook.com/profile.php?id=100087252550078"
-              className="text-blue-400 hover:text-blue-600 mr-2"
-            >
-              {/* <button
-              className=" text-xl ml-10 mr-10  md:ml-20 md:text-xl text-gray-900 lg:text-xl lg:items-center mb-4 md:mt-5 bg-buttonColor rounded-lg "
-              style={{ padding: "10px 20px" }}
-            >
-              Instagram
-            </button> */}
-            </Link>
+           
           </div>
         </div>
-        <p>
-          {" "}
+        <button>
+         
           Images de{" "}
-          <Link href="https://fr.freepik.com/vecteurs-libre/couverture-facebook-hammam-realiste_23178181.htm#query=hammam%20oriental%20banniere&position=10&from_view=search&track=ais&uuid=90a88bef-da63-4b54-a730-548e29c85c43">
+          <Link href="https://www.freepik.com/">
             Freepik
           </Link>
-        </p>
+        </button>
         <p className="">
           &copy; site créé par: David Abruzzo Tous droits réservés.
         </p>

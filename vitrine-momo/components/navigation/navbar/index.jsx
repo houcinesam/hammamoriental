@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <div className="bg-logoBackground sticky top-0 z-50 shadow-2xl shadow-neonColor font-Rubik ">
+      <div className="bg-logoBackground sticky top-0 z-50 shadow-2xl  shadow-neonColor font-Rubik  ">
         <div className="text-2xl md:text-3xl flex flex-col vw-full justify-center ">
           <button
             onClick={toggleMenu}
