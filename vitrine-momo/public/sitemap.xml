@@ -2,23 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://hammamoriental.vercel.app/</loc>
-      <lastmod>2024-02-2402</lastmod>
+      <lastmod>2024-02-24</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
-    <url>
+   <url>
       <loc>https://hammamoriental.vercel.app/contact</loc>
       <lastmod>2024-02-24</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
-    <url>
+   <url>
       <loc>https://hammamoriental.vercel.app/gallery</loc>
       <lastmod>2024-02-24</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
-   <loc>https://hammamoriental.vercel.app/price</loc>
+   <url>
+      <loc>https://hammamoriental.vercel.app/price</loc>
       <lastmod>2024-02-24</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
