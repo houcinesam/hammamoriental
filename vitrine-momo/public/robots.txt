@@ -2,5 +2,5 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://site-momo-test.vercel.app/sitemap.xml
+Sitemap: https://hammamoriental.vercel.app/sitemap.xml
   
