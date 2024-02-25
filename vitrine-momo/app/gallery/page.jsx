@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Gallery from "../../components/Gallery";
+import Video from "@/components/Video";
 import background from "@/public/backgroundImage.webp";
 
 function Page() {
@@ -46,6 +47,10 @@ function Page() {
       className="text-3xl flex flex-col justify-center items-center w-full bg-cover bg-center"
       style={{ backgroundImage: `url(${background.src})` }}
     >
+      <div className="flex justify-center mt-10 ml-10 mr-10 border-8 rounded-3xl bg:black border-buttonColor transition-transform duration-300 transform hover:scale-110 hover:shadow-2xl">
+                <Video />
+      </div>
+
       <Gallery images={images} imageSize={imageSize} />
       <Link href="/contact " className="flex justify-end">
         <button
