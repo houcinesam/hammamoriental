@@ -2,18 +2,33 @@ import { useForm, ValidationError } from "@formspree/react";
 import "../app/globals.css";
 import Image from "next/image";
 import background from "@/public/backgroundImage.webp";
- import ReCAPTCHA from "react-google-recaptcha";
+import ReCAPTCHA from "react-google-recaptcha";
+import { useState } from "react";
 function ContactForm() {
   const key = process.env.NEXT_PUBLIC_FORMSPREE;
   const captchaKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
   const [state, handleSubmit] = useForm(key);
 
+  // Fonction d'initialisation de reCAPTCHA
+  const initializeRecaptcha = () => {
+    // Vérifie si reCAPTCHA est déjà initialisé
+    if (window.grecaptcha) {
+      setRecaptchaReady(true);
+    } else {
+      // Attends que reCAPTCHA soit prêt
+      window.recaptchaInitCallback = () => setRecaptchaReady(true);
+    }
+  };
+
+  // Appel de la fonction d'initialisation de reCAPTCHA
+  initializeRecaptcha();
   if (state.succeeded) {
     return (
-      <p className="text-2xl flex justify-center items-center text-backgroundColor">Merci de votre message, nous vous recontacterons au plus vite.</p>
+      <p className="text-2xl flex justify-center items-center text-backgroundColor">
+        Merci de votre message, nous vous recontacterons au plus vite.
+      </p>
     );
   }
-
   return (
     <div className="flex flex-col   mb-4 md:w-2/3 lg:w-1/2  md:mx-auto bg-cover bg-center bg-transparent ">
       <div className=" p-8 rounded-lg shadow-md text-gray-700">
@@ -25,9 +40,9 @@ function ContactForm() {
         </p>
         <p className="text-xl font-semibold mb-4">
           {" "}
-           adresse : 12 rue Goethe 57800 freyming merlebach
+          adresse : 12 rue Goethe 57800 freyming merlebach
         </p>
-       
+
         <p className="text-xl font-semibold">Ou avec le formulaire :</p>
         <div className="h-1 bg-buttonColor"></div>
         <form onSubmit={handleSubmit}>
@@ -128,7 +143,7 @@ function ContactForm() {
             />
           </div>
           <div className="h-1 bg-[#f79b20]"></div>
-           <ReCAPTCHA sitekey={captchaKey} /> 
+          <ReCAPTCHA sitekey={captchaKey} />
           <button
             type="submit"
             className="bg-blue-500 text-white mt-2 py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
